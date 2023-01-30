@@ -1,0 +1,114 @@
+[
+    {
+        "title": "daily fuel",
+        "categories": [
+            {
+                "name": "daily audio",
+                "number_items_in_queue": 42,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "daily memes",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            }
+            ,
+            {
+                "name": "daily videos",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "scenario cards",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "playlists",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "quotes",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            }
+        ]
+    },
+    {
+        "title": "care",
+        "categories": [
+            {
+                "name": "breathworks",
+                "number_items_in_queue": 42,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "meditations",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            }
+            ,
+            {
+                "name": "mindfulness",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "affimations",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "calming videos",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "binural beats",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            }
+        ]
+    },
+    {
+        "title": "other",
+        "categories": [
+            {
+                "name": "journeys",
+                "number_items_in_queue": 42,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "quizzes",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "questions",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "actions",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            },
+            {
+                "name": "flows",
+                "number_items_in_queue": 0,
+                "number_items_disabled": 0
+            }
+        ]
+    },
+    {
+        "title": "grow",
+        "categories": [
+            {
+                "name": "courses",
+                "number_items_in_queue": 42,
+                "number_items_disabled": 0
+            }
+        ]
+    }
+]

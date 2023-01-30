@@ -1,0 +1,212 @@
+@import "~/styles/variables.less";
+
+@card-vbar-width: 5px;
+
+.schedule-detailed-container {
+    margin-top: 10px;
+}
+
+.schedule-tab-dayweek {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.title-dayweek {
+    color: @gen-black-4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.react-grid-layout {
+    position: relative;
+    transition: height 200ms ease;
+}
+
+.react-grid-item {
+    transition: all 200ms ease;
+    transition-property: left, top;
+}
+
+.react-grid-item.cssTransforms {
+    transition-property: transform;
+}
+
+.react-grid-item.resizing {
+    z-index: 1;
+    will-change: width, height;
+}
+
+.react-grid-item.react-draggable-dragging {
+    transition: none;
+    z-index: 3;
+    will-change: transform;
+}
+
+.react-grid-item.react-grid-placeholder {
+    background: blue;
+    opacity: 0.2;
+    transition-duration: 100ms;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.react-grid-item>.react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    cursor: col-resize;
+}
+
+.react-grid-item>.react-resizable-handle::after {
+    // content: "";
+    // position: absolute;
+    // top: 50%;
+    // right: 3px;
+    // bottom: 3px;
+    // width: 5px;
+    // height: 5px;
+    // border-right: 2px solid rgba(0, 0, 0, 0.4);
+    // border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.react-grid-item:not(.react-grid-placeholder) {
+    background: grey;
+}
+
+.window-header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.app-logo {
+    display: flex;
+}
+
+.app-logo-icon {
+    height: 20px;
+}
+
+.app-name {
+    font-size: 14px;
+    padding-left: 8px;
+}
+
+.actions-container {
+    display: flex;
+}
+
+.window-button-style {
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    transition: background-color 150ms ease;
+}
+
+.window-controls-icon {
+    fill: #958fb2;
+    pointer-events: none;
+    user-select: none;
+    width: 20px;
+    height: 20px;
+    transition: fill 150ms ease;
+}
+
+.window-controls-icon:hover {
+    background-color: rgb(77, 46, 46);
+}
+
+.window-controls-icon {
+    fill: #f4f2ff;
+}
+
+.settings-window:hover {
+    background-color: orange;
+}
+
+.close-window:hover {
+    background-color: #e6004c;
+}
+
+.close-window::focus {
+    outline: none;
+}
+
+// each card
+
+.schedule-card {
+    display: flex;
+    z-index: 2;
+}
+
+.add-item-btn {
+    z-index: 2;
+    display: none;
+}
+
+.schedule-card:hover {
+    .card-icon {
+        display: block;
+    }
+}
+
+.schedule-card-vbar {
+    width: @card-vbar-width;
+    height: 100%;
+}
+
+.schedule-card-body {
+    text-align: center;
+    width: 100%;
+}
+
+.schedule-card-icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.schedule-card-category-text {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.schedule-virtual-component {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: calc(100% - 35px);
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.schedule-virtual-component div {
+    transform: translate(5px, 5px);
+    border: 1px solid @gen-grey-9;
+}
+
+.schedule-card-add-btn {
+    z-index: 2;
+    letter-spacing: 0.32px;
+    color: #ED4E60;
+    cursor: pointer;
+    height: 70px;
+    line-height: 70px;
+}
+

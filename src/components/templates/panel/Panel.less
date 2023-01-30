@@ -1,0 +1,32 @@
+@import "~/styles/variables.less";
+
+@fullWidth: 100%;
+
+.gen-panel-template {
+  // display: flex;
+  height: 100%;
+  &__content {
+    background-color: @gen-white-fa;
+    flex: 1;
+    // display: flex;
+    // flex-direction: column;
+    padding: 0 0 0 54px;
+  }
+  &__content-container {
+    // background-color: @gen-white;
+    // padding: 25px 121px 97px 25px;
+    padding: 25px;
+    // margin: 0 47px 37px 20px;
+    margin: 20px;
+    // box-shadow: 5px 4px 12px rgba(@gen-box-shadow, 0.2);
+    border-radius: 3px;
+  }
+  &__loader {
+    width: @fullWidth;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+}

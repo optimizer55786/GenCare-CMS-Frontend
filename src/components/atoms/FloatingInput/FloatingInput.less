@@ -1,0 +1,60 @@
+.inputField {
+  position: relative;
+  color: red;
+}
+
+.inputField input {
+  padding: 8px 16px;
+  padding-top: 18px;
+  border: 1px solid #e6e7e7;
+  // border-radius: 3px;
+  border-radius: 10px;
+  width: 100%;
+  height: 56px;
+  color: #171d3c;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.inputField input:focus {
+  border: 1.8px solid #6b6b6b;
+  outline: none;
+}
+
+.inputField span {
+  pointer-events: none;
+  // opacity: 0.5;
+  color: #2c2e56;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  padding-left: 16px;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: text;
+}
+
+.inputField input:focus + span,
+.inputField input:not(:placeholder-shown) + span {
+  top: 7px;
+  -webkit-transform: scale(0.9) translateY(-10%) translateX(-4.5px);
+  transform: scale(0.9) translateY(-10%) translateX(-4.5px);
+}
+
+.inputField input,
+.inputField span {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.w-42 {
+  width: 42px;
+}

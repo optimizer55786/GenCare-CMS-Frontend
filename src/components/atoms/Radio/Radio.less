@@ -1,0 +1,35 @@
+@import "~/styles/variables.less";
+
+@character-gen-radio-spacing: 1.6px;
+
+.gen-radio {
+    margin-bottom: 1.5rem;
+}
+
+.gen-radio__title-text {
+    font-family: 'Mulish-Regular';
+    letter-spacing: @character-gen-radio-spacing;
+}
+
+.gen-radio__label-text>span:nth-child(2) {
+    font-family: 'Mulish-Bold';
+    font: normal normal bold 18px/17px;
+}
+
+.ant-radio-input:focus {
+    box-shadow: blue;   
+}
+
+.ant-radio-inner {
+    border-color: @gen-black-5 !important;
+}
+
+.ant-radio-inner::after {
+    background-color: @gen-black-5;
+}
+
+.gen-radio__containter {
+    display: flex;
+    flex-direction: column;
+    gap: @element-spacing-2;
+}

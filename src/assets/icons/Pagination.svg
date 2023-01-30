@@ -1,0 +1,78 @@
+<svg id="Pagination" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="288.862" height="41" viewBox="0 0 288.862 41">
+  <defs>
+    <filter id="Pagination.BG" x="0" y="0" width="288.862" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Pagination.BG-2" data-name="Pagination.BG" transform="translate(4.5 2.5)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+    <path d="M4,0H74.862a0,0,0,0,1,0,0V32a0,0,0,0,1,0,0H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" stroke="none"/>
+    <path d="M4,.5H73.862a.5.5,0,0,1,.5.5V31a.5.5,0,0,1-.5.5H4A3.5,3.5,0,0,1,.5,28V4A3.5,3.5,0,0,1,4,.5Z" fill="none"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Pagination.BG)">
+    <g id="Pagination.BG-3" data-name="Pagination.BG" transform="translate(4.5 2.5)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+      <rect width="279.862" height="32" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="278.862" height="31" rx="3.5" fill="none"/>
+    </g>
+  </g>
+  <text id="_1" data-name="1" transform="translate(21.362 23.5)" fill="#ed4e60" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">1</tspan></text>
+  <g id="_2" data-name="2" transform="translate(-70.5 2.5)">
+    <g id="Pagination.BG-4" data-name="Pagination.BG" transform="translate(106)" fill="#ed4e60" stroke="#d7dae2" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="_2-2" data-name="2" transform="translate(121.862 21)" fill="#fff" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">2</tspan></text>
+  </g>
+  <g id="_3" data-name="3" transform="translate(-39.5 2.5)">
+    <g id="Pagination.BG-5" data-name="Pagination.BG" transform="translate(106)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="_3-2" data-name="3" transform="translate(121.862 21)" fill="#ed4e60" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">3</tspan></text>
+  </g>
+  <g id="_4" data-name="4" transform="translate(-8.5 2.5)">
+    <g id="Pagination.BG-6" data-name="Pagination.BG" transform="translate(106)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="_4-2" data-name="4" transform="translate(121.862 21)" fill="#ed4e60" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">4</tspan></text>
+  </g>
+  <g id="_5" data-name="5" transform="translate(22.5 2.5)">
+    <g id="Pagination.BG-7" data-name="Pagination.BG" transform="translate(106)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="_5-2" data-name="5" transform="translate(121.862 21)" fill="#ed4e60" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">5</tspan></text>
+  </g>
+  <g id="_6" data-name="6" transform="translate(53.5 2.5)">
+    <g id="Pagination.BG-8" data-name="Pagination.BG" transform="translate(106)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="_6-2" data-name="6" transform="translate(121.862 21)" fill="#ed4e60" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">6</tspan></text>
+  </g>
+  <g id="_7" data-name="7" transform="translate(84.5 2.5)">
+    <g id="Pagination.BG-9" data-name="Pagination.BG" transform="translate(106)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="_7-2" data-name="7" transform="translate(121.862 21)" fill="#ed4e60" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">7</tspan></text>
+  </g>
+  <g id="_8" data-name="8" transform="translate(115.5 2.5)">
+    <g id="Pagination.BG-10" data-name="Pagination.BG" transform="translate(106)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="_8-2" data-name="8" transform="translate(121.862 21)" fill="#ed4e60" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">8</tspan></text>
+  </g>
+  <g id="_9" data-name="9" transform="translate(146.5 2.5)">
+    <g id="Pagination.BG-11" data-name="Pagination.BG" transform="translate(106)" fill="#fff" stroke="#d7dae2" stroke-width="1">
+      <rect width="32" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+    </g>
+    <text id="_9-2" data-name="9" transform="translate(121.862 21)" fill="#ed4e60" font-size="13" font-family="Source Sans Pro"><tspan x="-3" y="0">9</tspan></text>
+  </g>
+</svg>

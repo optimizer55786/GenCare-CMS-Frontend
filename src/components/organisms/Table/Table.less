@@ -1,0 +1,44 @@
+@import "~/styles/variables.less";
+
+.gen-table {
+	.ant-table-thead {
+		position: relative;
+		z-index: 0;
+		border-left: 1px solid @gen-white-2;
+		border-right: 1px solid @gen-white-2;
+	}
+	.ant-table-thead > tr > th {
+		border-top: 1px solid @gen-white-2;
+		border-bottom: 1px solid @gen-white-2;
+		background-color: @gen-white;
+	}
+	.ant-table-container table > thead > tr:first-child th:first-child {
+		border-left: 1px solid @gen-white-2;
+	}
+	.ant-table-container table > thead > tr:first-child th:last-child {
+		border-right: 1px solid @gen-white-2;
+	}
+	.ant-table-thead > tr > th::before {
+		display: none;
+	}
+	&__pagination-container {
+		width: 100%;
+		display: flex;
+		margin-top: 33px;
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+	&__pagination-text {
+		padding-left: 16px;
+		margin: 0px;
+	}
+	.daily-content-text {
+		display: flex;
+		justify-content: center;
+	}
+	.level-badge span {
+		width: 10px;
+		height: 10px;
+		margin-right: 7px;
+	}
+}

@@ -1,0 +1,107 @@
+@import "~/styles/variables.less";
+
+@gen-queue-item-box-shadow: 0px 5px 10px #0000001A;
+
+.card {
+    .ant-card-body {
+        padding: 0;
+    }
+}
+
+.plus-minus-icon-no-active {
+    .ant-card-body {
+        padding: 0;
+        background-color: @gen-red-3;
+    }
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.move-to {
+    background-color: @gen-white-2;
+    margin: @element-spacing-14;
+    padding: @element-spacing-6 @element-spacing-6 @element-spacing-6 @element-spacing-14;
+    display: flex;
+    border-radius: 16px;
+}
+
+.move-to-title {
+    font-size: @line-spacing-18;
+}
+
+.drap-drop-wrapper {
+    padding: @line-spacing-20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: @gen-white-2;
+}
+
+.drap-drop-icon {
+    fill: @gen-white-f4;
+}
+
+.wave-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: @line-spacing-30;
+    font-size: @line-spacing-18;
+}
+
+.move-to-icon {
+    margin: 0 @element-spacing-6;
+}
+
+.move-to-position-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: @gen-white-f4;
+    border-radius: @element-spacing-10;
+    padding: @element-spacing-6;
+    margin-left: @element-spacing-6;
+}
+
+.move-to-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-minus-icon {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: @line-spacing-20;
+}
+
+.order-number {
+    margin-left: @element-spacing-10;
+    font-size: @line-spacing-18;
+}
+
+.ant-card.ant-card-bordered.ant-card-hoverable {
+    border: none;
+    box-shadow: @gen-queue-item-box-shadow;
+    border-radius: @element-spacing-3;
+}
+
+.position-input-icon {
+    display: flex;
+    align-items: center;
+}
+
+.content-category-queue-content-header {
+    margin-bottom: 30px;
+}
+
+.status-button {
+    display: flex;
+}

@@ -1,0 +1,47 @@
+@import "~/styles/variables.less";
+
+.content-category-queue-title {
+    font-family: Mulish-Bold;
+    font-size: @text-30;
+    color: @gen-black-1;
+    letter-spacing: @character-spacing-0-48;
+    text-transform: uppercase;
+}
+
+.content-category-item-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.category-list-container {
+    padding: 1vw 5vw ;
+}
+
+.content-category-item {
+    background: @gen-grey-7 0% 0% no-repeat padding-box;
+    box-shadow: @character-spacing-0 @gen-spacing-15 @gen-spacing-15 @gen-black-6;
+    border-radius: @gen-universal-5;
+    margin: @element-spacing-30 0;
+    padding: @element-spacing-28;
+    cursor: pointer;
+}
+
+.content-category-item-name {
+    font-family: Montserrat-Bold;
+    color: @gen-black-4;
+    font-size: 16px;
+    letter-spacing: @character-spacing-0-48;
+    margin-bottom: @line-spacing-11;
+}
+
+.content-category-item-queue {
+    font-family: Montserrat-Regular;
+}
+
+.content-category-item-queue-active {
+    letter-spacing: @character-spacing-0-48;
+}
+
+.content-category-item-queue-expired {
+    letter-spacing: @character-spacing-0-42;
+}

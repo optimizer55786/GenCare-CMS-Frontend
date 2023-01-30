@@ -1,0 +1,29 @@
+@import "~/styles/variables.less";
+
+@fullWidth: 100%;
+@panelboard-min-height: 550px;
+@schedule-card-panel-board-p: 20px 1px 0 1px;
+@schedule-card-panel-board-w: calc(100% - 50px);
+@gen-panelboard-content-category-queue: 200px;
+
+.gen-panelboard-template {
+    min-height: @panelboard-min-height;
+    background-color: @gen-white;
+    padding: @element-spacing-2;
+    margin-bottom: 2vw;
+}
+
+.gen-panelboard-template>div {
+    height: @element-size;
+}
+
+.schedule-card-panel-board {
+    padding: @schedule-card-panel-board-p;
+    width: @schedule-card-panel-board-w;
+}
+
+.gen-panelboard-content-category-queue {
+    min-height: @gen-panelboard-content-category-queue;
+    margin-bottom: @element-spacing-63;
+    border-radius: @gen-universal-3;
+}

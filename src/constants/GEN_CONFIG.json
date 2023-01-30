@@ -1,0 +1,67 @@
+{
+  "SIDEBAR": {
+    "TITLE": "Genie CMS",
+    "MENU": [
+      {
+        "LABEL": "Dashboard",
+        "KEY": "dashboard",
+        "ICON": "app"
+      },
+      {
+        "LABEL": "Content Library",
+        "KEY": "content-library",
+        "ICON": "copy"
+      },
+      {
+        "LABEL": "Daily Fuel Scheduler",
+        "KEY": "daily-fuel-scheduler",
+        "ICON": "clock"
+      },
+      {
+        "LABEL": "Onboarding",
+        "KEY": "onboarding",
+        "ICON": "layout"
+      },
+      {
+        "LABEL": "Clients",
+        "KEY": "clients",
+        "ICON": "team"
+      },
+      {
+        "LABEL": "Settings",
+        "KEY": "settings",
+        "ICON": "settings",
+        "CHILDREN": [
+          {
+            "LABEL": "Goals & Assessments",
+            "KEY": "goals-and-assessments"
+          },
+          {
+            "LABEL": "About You Templates",
+            "KEY": "about-you-templates"
+          },
+          {
+            "LABEL": "Goal Content Templates",
+            "KEY": "goal-content-templates"
+          },
+          {
+            "LABEL": "Tour Text Template",
+            "KEY": "tour-text-template"
+          },
+          {
+            "LABEL": "Privacy Details Template",
+            "KEY": "privacy-details-templates"
+          },
+          {
+            "LABEL": "Template App Theme",
+            "KEY": "template-app-theme"
+          },
+          {
+            "LABEL": "General",
+            "KEY": "general"
+          }
+        ]
+      }
+    ]
+  }
+}
